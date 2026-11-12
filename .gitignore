@@ -1,0 +1,28 @@
+# Large datasets
+data/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+# Exclude generated HTML visualizations
+outputs/visualizations/*.html
+requirement_full.txt
+
+
+# Full environment export
+requirements_full.txt

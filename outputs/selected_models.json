@@ -1,0 +1,13 @@
+{
+    "selection_method": "lowest pooled WAPE across rolling folds",
+    "validation_folds": 3,
+    "selected_models": {
+        "CA_1__FOODS": "LightGBM",
+        "CA_1__HOBBIES": "LightGBM",
+        "CA_1__HOUSEHOLD": "SARIMA",
+        "CA_2__FOODS": "SARIMA",
+        "CA_2__HOBBIES": "RandomForest",
+        "CA_2__HOUSEHOLD": "LightGBM"
+    },
+    "overall_best_model": "LightGBM"
+}
